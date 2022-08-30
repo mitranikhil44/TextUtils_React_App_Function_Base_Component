@@ -16,7 +16,7 @@ export default function About(props) {
               aria-expanded="true"
               aria-controls="panelsStayOpen-collapseOne"
             >
-              Accordion Item #1
+              Analyze you text
             </button>
           </h2>
           <div
@@ -25,14 +25,7 @@ export default function About(props) {
             aria-labelledby="panelsStayOpen-headingOne"
           >
             <div className={`accordion-body bg-${props.mode === "dark" ? "dark":"light"}`}>
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              TextUtils gives you a way to analyze your text quickly and efficiently. Be it word count, character count.
             </div>
           </div>
         </div>
@@ -46,7 +39,7 @@ export default function About(props) {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo"
             >
-              Accordion Item #2
+             Free to use
             </button>
           </h2>
           <div
@@ -55,14 +48,7 @@ export default function About(props) {
             aria-labelledby="panelsStayOpen-headingTwo"
           >
             <div className={`accordion-body bg-${props.mode === "dark" ? "dark":"light"}`}>
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              TextUtils is a free character counter tool that provides instant character count & word count statics for a given text. TextUtils reports tha number of words and characters. Thus it is a suitable for writing text with word/ character limit.
             </div>
           </div>
         </div>
@@ -76,7 +62,7 @@ export default function About(props) {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseThree"
             >
-              Accordion Item #3
+              Browser Compatible
             </button>
           </h2>
           <div
@@ -85,14 +71,7 @@ export default function About(props) {
             aria-labelledby="panelsStayOpen-headingThree"
           >
             <div className={`accordion-body bg-${props.mode === "dark" ? "dark":"light"}`}>
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              This word counter software works in any web browser such as chrome, Firefox, Internet Explorer, Safari, Opera. It Suits to count characters in facebbook, blog, books, excel document, pdf document, essays, etc.
             </div>
           </div>
         </div>
