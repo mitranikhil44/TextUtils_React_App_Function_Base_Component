@@ -25,9 +25,7 @@ export default function TextForm(props) {
   }
   
   const handleCpClick = () => {
-    let textData = document.getElementById("inputBox");
-    textData.select();
-    navigator.clipboard.writeText(textData.value);
+    navigator.clipboard.writeText(text);
     props.showAlert("Copy your text", "success");
   }
   
@@ -51,10 +49,10 @@ export default function TextForm(props) {
     </div>
     <div className={`container text-${props.mode === "light" ? "dark":"light"}`}>
       <h2>Your Text Info</h2>
-      <p>{text.split(" ").filter(element=>element.length!==0).length} words and {text.length} charecters</p>
+      <p>{text.split(/\s+/).filter(element=>element.length!==0).length} words and {text.length} charecters</p>
       <h2>Preview</h2>
       <p>{text.length>0 ? text : "No Text To Preview"}</p>
-      <p>{0.0008 * text.split(" ").filter(element=>element.length!==0).length} Minutes read</p>
+      <p>{0.0008 * text.split(/\s+/).filter(element=>element.length!==0).length} Minutes read</p>
     </div>
     </>
   )
